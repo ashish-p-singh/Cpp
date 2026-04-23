@@ -7,5 +7,9 @@ file(GLOB SRC_FILES *.cpp)
 
 foreach(file ${SRC_FILES})
     get_filename_component(exec_name ${file} NAME_WE)
-    add_executable(${exec_name} ${file})
+    add_executable(${exec_name} ${file}
+            tle.cpp
+            tle.cpp
+            hi.cpp
+    )
 endforeach()
