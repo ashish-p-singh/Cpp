@@ -1,0 +1,31 @@
+# --- CLion / JetBrains ---
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# --- Build Directories (CMake) ---
+# It is common to name your build folder "build" or "cmake-build-debug"
+build/
+cmake-build-*/
+
+# --- Executables and Object Files ---
+# If you are on Windows
+*.exe
+*.dll
+*.pdb
+*.ilk
+
+# If you are on Linux/macOS
+*.o
+*.so
+*.dylib
+*.a
+
+# --- Compilation Databases ---
+compile_commands.json
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
+CMakeLists.txt
